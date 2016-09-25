@@ -20,20 +20,20 @@ response:
     Server:
     - nginx
     Date:
-    - Sat, 24 Sep 2016 02:02:36 GMT
+    - Sun, 25 Sep 2016 07:24:51 GMT
     Content-Type:
     - text/html
     Connection:
     - keep-alive
     Set-Cookie:
-    - ARPT=csa; path=/; expires=Sun, 25-Sep-2016 02:06:04 GMT
-    - pd25e=161.110.13.48.1474682556384486; path=/; domain=.parlament.gv.at
+    - ARPT=csa; path=/; expires=Mon, 26-Sep-2016 07:33:41 GMT
+    - pd25e=161.110.13.48.1474788291094469; path=/; domain=.parlament.gv.at
     Accept-Ranges:
     - bytes
     Cache-Control:
     - max-age=0
     Expires:
-    - Sat, 24 Sep 2016 02:02:36 GMT
+    - Sun, 25 Sep 2016 07:24:51 GMT
     Strict-Transport-Security:
     - max-age=31536000
     Content-Length:
@@ -41,4 +41,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sat, 24 Sep 2016 02:02:36 GMT
+recorded_at: Sun, 25 Sep 2016 07:24:51 GMT
