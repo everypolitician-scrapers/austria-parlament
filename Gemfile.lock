@@ -46,6 +46,7 @@ GEM
       method_source (~> 0.8.1)
       slop (~> 3.4)
     rainbow (2.1.0)
+    require_all (1.3.3)
     rubocop (0.43.0)
       parser (>= 2.3.1.1, < 3.0)
       powerpack (~> 0.1)
@@ -77,6 +78,7 @@ DEPENDENCIES
   nokogiri
   open-uri-cached
   pry
+  require_all
   rubocop
   scraped_page_archive!
   scraperwiki!
