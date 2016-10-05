@@ -6,12 +6,10 @@ require 'pry'
 require 'require_all'
 require 'scraperwiki'
 
-# require 'open-uri/cached'
-require 'scraped_page_archive/open-uri'
 require_rel 'lib'
 
-require 'open-uri/cached'
-# require 'scraped_page_archive/open-uri'
+# require 'open-uri/cached'
+require 'scraped_page_archive/open-uri'
 
 LIST_PAGE = 'https://www.parlament.gv.at/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&R_BW=BL&GP=ALLE&BL=ALLE&STEP=&FR=ALLE&M=M&NRBR=NR&FBEZ=FW_004&WK=ALLE&requestId=22CCE571C5&jsMode=&LISTE=&W=W&letter=&WP=ALLE&listeId=4&R_WF=FR'
 
