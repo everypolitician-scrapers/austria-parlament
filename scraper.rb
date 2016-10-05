@@ -60,8 +60,18 @@ class AllMembersPage < Page
   end
 end
 
-def noko_for(url)
-  Nokogiri::HTML(open(url).read)
+class MemberPage < Page
+  field :id do
+    url.to_s[/PAD_(\d+)/, 1]
+  end
+
+  field :name do
+    noko.css('h1#inhalt').text.tidy
+  end
+
+  field :source do
+    url.to_s
+  end
 end
 
 LIST_PAGE = 'https://www.parlament.gv.at/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&R_BW=BL&GP=ALLE&BL=ALLE&STEP=&FR=ALLE&M=M&NRBR=NR&FBEZ=FW_004&WK=ALLE&requestId=22CCE571C5&jsMode=&LISTE=&W=W&letter=&WP=ALLE&listeId=4&R_WF=FR'
@@ -69,7 +79,7 @@ LIST_PAGE = 'https://www.parlament.gv.at/WWER/NR/ABG/index.shtml?xdocumentUri=%2
 data = AllMembersPage.new(LIST_PAGE).to_h
 warn "Found #{data[:members].count} members"
 
-# For now, only archive the member pages. Parsing them can come later.
 data[:members].each do |mem|
-  _ = noko_for(mem[:url])
+  member = MemberPage.new(mem[:url]).to_h
+  ScraperWiki.save_sqlite(%i(id), member)
 end
