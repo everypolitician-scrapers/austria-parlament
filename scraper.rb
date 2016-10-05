@@ -79,7 +79,7 @@ LIST_PAGE = 'https://www.parlament.gv.at/WWER/NR/ABG/index.shtml?xdocumentUri=%2
 data = AllMembersPage.new(LIST_PAGE).to_h
 warn "Found #{data[:members].count} members"
 
-data[:members].each do |mem|
+data[:members].shuffle.each do |mem|
   member = MemberPage.new(mem[:url]).to_h
   ScraperWiki.save_sqlite(%i(id), member)
 end
