@@ -85,7 +85,8 @@
 		<span>LETZTES UPDATE: 02.11.2015; 10:58</span>
 		<h2 class="hidden">Seitenfunktionen</h2>
 		<ul id="siteFunction">
-    			<li><a href="/GESP"><img alt="Infos in Geb&auml;rdensprache" src="/img/icons/BF.gif" class="icon iconBF nma"></a></li>
+    			<li><img alt="Intern/Extern" src="/img/icons/small/Info.gif" class="icon"></li>
+			<li><a href="/GESP"><img alt="Infos in Geb&auml;rdensprache" src="/img/icons/BF.gif" class="icon iconBF nma"></a></li>
     			<li><a onclick="resizeBody(-1); return false;" title="Bei deaktiviertem Java-Script bitte &uuml;ber Browser-Men&uuml; Ausw&auml;hlen" href="#"><img alt="Schriftgr&ouml;&szlig;e verkleinern" src="/img/icons/small/Schriftgroesse_klein.gif" class="icon nma"></a><a onclick="resizeBody(1); return false;" title="Bei deaktiviertem Java-Script bitte &uuml;ber Browser-Men&uuml; Ausw&auml;hlen" href="#"><img alt="Schriftgr&ouml;&szlig;e vergr&ouml;&szlig;ert" src="/img/icons/small/Schriftgroesse_gross.gif" class="icon nma"></a></li>
     			<li><a href="/KONF/RecommendPage.shtml?xbackUrl=/WWER/NR/ABG/index.shtml&xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=22CCE571C5&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR"><img alt="" src="/img/icons/small/empfehlen_schwarz.gif" class="icon">SEITE EMPFEHLEN</a></li>
     			<li><a href="javascript:window.print();"><img alt="" src="/img/icons/small/drucken_schwarz.gif" class="icon">SEITE DRUCKEN</a></li>		
@@ -163,17 +164,39 @@
 				<h1 id="inhalt">Abgeordnete zum Nationalrat seit 1920</h1>
 			</div>
 		<div class="contentBlock">
-							
+							    
 
 
 
 
 
 
-<div class="filterFields" id="filterFieldsFW_004" class="formularContainer">
 
 
-<form id="filterRssFormFW_004" name="filter" onsubmit="if ('/WWER/NR/ABG/index.shtml' != '/WWER/NR/ABG/index.shtml') return true; evalFilterListeFW_004(); return false;" method="get" action="/WWER/NR/ABG/filter.psp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="filterFields"
+		id="filterFieldsFW_004"
+		class="formularContainer">
+		
+		
+			<form id="filterRssFormFW_004" name="filter" onsubmit="if ('/WWER/NR/ABG/index.shtml' != '/WWER/NR/ABG/index.shtml') return true; evalFilterListeFW_004(); return false;" method="get" action="/WWER/NR/ABG/filter.psp">
 
 
 
@@ -614,12 +637,17 @@
 <input type="hidden" name="FBEZ" value="FW_004">
 
 </form>
+		
+		
 
 
 
+<form id="filterFormFW_004" name="filter" 
+onsubmit="if ('/WWER/NR/ABG/index.shtml' != '/WWER/NR/ABG/index.shtml') return true; evalFilterListeFW_004(); return false;"
+method="get" 
+action="/WWER/NR/ABG/index.shtml" 
+>
 
-
-<form id="filterFormFW_004" name="filter" onsubmit="if ('/WWER/NR/ABG/index.shtml' != '/WWER/NR/ABG/index.shtml') return true; evalFilterListeFW_004(); return false;" method="get" action="/WWER/NR/ABG/index.shtml">
 	<input type="hidden" name="jsMode" value="">
 	<input type="hidden" name="xdocumentUri" value="">
 
@@ -631,7 +659,7 @@
 
 	<fieldset >
 
-	<legend><span class="hidden">Zeitauswahle</span></legend>
+	<legend><span class="hidden">Zeitauswahl</span></legend>
 
 
 
@@ -1140,7 +1168,7 @@
 
 </fieldset>
 
-	<fieldset >
+	<fieldset class="test">
 
 	<legend><span class="hidden">Anzeigen</span></legend>
 
@@ -1253,7 +1281,7 @@
 
 	<input type="hidden" name="FBEZ" value="FW_004">
 </form>
-</div>
+	</div>
 
 
 
@@ -1261,7 +1289,7 @@
 
 
 <div class="filterListe" id="filterListeFW_004">
-
+	
 
 
 
@@ -1277,7 +1305,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=A&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=A&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">A</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=A&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=A&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">A</a> <span class="hidden">.</span>
 
 
 
@@ -1285,7 +1313,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=B&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=B&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">B</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=B&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=B&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">B</a> <span class="hidden">.</span>
 
 
 
@@ -1293,7 +1321,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=C&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=C&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">C</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=C&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=C&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">C</a> <span class="hidden">.</span>
 
 
 
@@ -1301,7 +1329,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=D&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=D&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">D</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=D&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=D&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">D</a> <span class="hidden">.</span>
 
 
 
@@ -1309,7 +1337,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=E&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=E&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">E</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=E&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=E&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">E</a> <span class="hidden">.</span>
 
 
 
@@ -1317,7 +1345,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=F&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=F&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">F</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=F&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=F&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">F</a> <span class="hidden">.</span>
 
 
 
@@ -1325,7 +1353,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=G&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=G&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">G</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=G&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=G&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">G</a> <span class="hidden">.</span>
 
 
 
@@ -1333,7 +1361,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=H&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=H&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">H</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=H&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=H&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">H</a> <span class="hidden">.</span>
 
 
 
@@ -1341,7 +1369,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=I&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=I&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">I</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=I&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=I&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">I</a> <span class="hidden">.</span>
 
 
 
@@ -1349,7 +1377,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=J&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=J&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">J</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=J&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=J&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">J</a> <span class="hidden">.</span>
 
 
 
@@ -1357,7 +1385,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=K&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=K&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">K</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=K&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=K&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">K</a> <span class="hidden">.</span>
 
 
 
@@ -1365,7 +1393,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=L&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=L&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">L</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=L&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=L&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">L</a> <span class="hidden">.</span>
 
 
 
@@ -1373,7 +1401,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=M&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=M&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">M</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=M&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=M&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">M</a> <span class="hidden">.</span>
 
 
 
@@ -1381,7 +1409,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=N&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=N&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">N</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=N&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=N&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">N</a> <span class="hidden">.</span>
 
 
 
@@ -1389,7 +1417,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=O&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=O&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">O</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=O&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=O&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">O</a> <span class="hidden">.</span>
 
 
 
@@ -1397,7 +1425,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=P&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=P&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">P</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=P&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=P&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">P</a> <span class="hidden">.</span>
 
 
 
@@ -1405,7 +1433,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=R&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=R&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">R</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=R&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=R&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">R</a> <span class="hidden">.</span>
 
 
 
@@ -1413,7 +1441,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=S&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=S&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">S</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=S&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=S&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">S</a> <span class="hidden">.</span>
 
 
 
@@ -1421,7 +1449,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=T&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=T&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">T</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=T&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=T&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">T</a> <span class="hidden">.</span>
 
 
 
@@ -1429,7 +1457,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=U&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=U&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">U</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=U&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=U&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">U</a> <span class="hidden">.</span>
 
 
 
@@ -1437,7 +1465,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=V&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=V&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">V</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=V&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=V&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">V</a> <span class="hidden">.</span>
 
 
 
@@ -1445,7 +1473,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=W&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=W&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">W</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=W&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=W&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">W</a> <span class="hidden">.</span>
 
 
 
@@ -1453,7 +1481,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=Y&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=Y&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">Y</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=Y&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=Y&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">Y</a> <span class="hidden">.</span>
 
 
 
@@ -1461,7 +1489,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=Z&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=Z&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">Z</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=Z&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=Z&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">Z</a> <span class="hidden">.</span>
 
 
 
@@ -1469,7 +1497,7 @@
 			<div class="paginationRechts">
 
 
-				<span class="active-page">1778 Ergebnisse <img src="/img/icons/small/Weitere_anzeigen.gif" class="icon" alt=""></span>
+				<span class="active-page">1792 Ergebnisse <img src="/img/icons/small/Weitere_anzeigen.gif" class="icon" alt=""></span>
 
 
 
@@ -4172,6 +4200,51 @@
 
 
 		<td headers="glossar_B">
+<a href="/WWER/PAD_00076/index.shtml" ><img class="icon" title="" alt="" src="/img/icons/small/Link.gif">Bauer Johann, Dipl.-Kfm. Dr. siehe Bauer Hannes, Dipl.-Kfm. Dr.
+</a>
+		</td>
+
+
+
+		<td headers="glossar_B">
+<span title="Klub der Sozialistischen Abgeordneten und Bundesräte, Sozialdemokratische Parlamentsfraktion - Klub der sozialdemokratischen Abgeordneten und Bundesräte, Die Sozialdemokratische Parlamentsfraktion - Klub der sozialdemokratischen Abgeordneten zum Nationalrat, Bundesrat und Europäischen Parlament" class="zeigeTooltip">SPÖ</span>
+
+		</td>
+
+
+
+		<td headers="glossar_B">
+<span title="siebzehnte Gesetzgebungsperiode" class="zeigeTooltip">XVII</span>, <span title="achtzehnte Gesetzgebungsperiode" class="zeigeTooltip">XVIII</span>, <span title="einundzwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XXI</span>, <span title="zweiundzwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XXII</span>, <span title="dreiundzwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XXIII</span>
+
+		</td>
+
+
+
+		<td headers="glossar_B">
+<span title="3 Niederösterreich, 3 Niederösterreich" class="zeigeTooltip">N</span>
+
+		</td>
+
+
+
+
+		</tr>
+
+
+		<tr >
+
+
+
+            <th class="grau">&nbsp;</th>
+
+
+
+
+
+
+
+
+		<td headers="glossar_B">
 <a href="/WWER/PAD_00078/index.shtml" ><img class="icon" title="" alt="" src="/img/icons/small/Link.gif">Bauer Otto, Dr.
 </a>
 		</td>
@@ -4622,6 +4695,51 @@
 
 
 		<td headers="glossar_B">
+<a href="/WWER/PAD_02869/index.shtml" ><img class="icon" title="" alt="" src="/img/icons/small/Link.gif">Bekavac-Ramsbacher Helena siehe Ramsbacher Helena
+</a>
+		</td>
+
+
+
+		<td headers="glossar_B">
+<span title="Klub der Freiheitlichen" class="zeigeTooltip">F</span>
+
+		</td>
+
+
+
+		<td headers="glossar_B">
+<span title="neunzehnte Gesetzgebungsperiode" class="zeigeTooltip">XIX</span>
+
+		</td>
+
+
+
+		<td headers="glossar_B">
+<span title="2 Kärnten" class="zeigeTooltip">K</span>
+
+		</td>
+
+
+
+
+		</tr>
+
+
+		<tr >
+
+
+
+            <th class="grau">&nbsp;</th>
+
+
+
+
+
+
+
+
+		<td headers="glossar_B">
 <a href="/WWER/PAD_35468/index.shtml" ><img class="icon" title="" alt="" src="/img/icons/small/Link.gif">Belakowitsch-Jenewein Dagmar, Dr.
 </a>
 		</td>
@@ -4914,6 +5032,51 @@
 
 		<td headers="glossar_B">
 <span title="1 Burgenland" class="zeigeTooltip">B</span>
+
+		</td>
+
+
+
+
+		</tr>
+
+
+		<tr >
+
+
+
+            <th class="grau">&nbsp;</th>
+
+
+
+
+
+
+
+
+		<td headers="glossar_B">
+<a href="/WWER/PAD_83124/index.shtml" ><img class="icon" title="" alt="" src="/img/icons/small/Link.gif">Bernhard Michael
+</a>
+		</td>
+
+
+
+		<td headers="glossar_B">
+<span title="Klub von NEOS und LIF" class="zeigeTooltip">NEOS-LIF</span>
+
+		</td>
+
+
+
+		<td headers="glossar_B">
+<span title="fünfundzwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XXV</span>
+
+		</td>
+
+
+
+		<td headers="glossar_B">
+<span title="9 Wien" class="zeigeTooltip">W</span>
 
 		</td>
 
@@ -6579,6 +6742,51 @@
 
 		<td headers="glossar_B">
 <span title="16 Mühlviertel, 4 Oberösterreich" class="zeigeTooltip">O</span>
+
+		</td>
+
+
+
+
+		</tr>
+
+
+		<tr >
+
+
+
+            <th class="grau">&nbsp;</th>
+
+
+
+
+
+
+
+
+		<td headers="glossar_B">
+<a href="/WWER/PAD_08184/index.shtml" ><img class="icon" title="" alt="" src="/img/icons/small/Link.gif">Breitenfeld-Papházy Sylvia, Dr., MBA siehe Papházy Sylvia, Dr., MBA
+</a>
+		</td>
+
+
+
+		<td headers="glossar_B">
+<span title="Klub der Freiheitlichen Partei Österreichs" class="zeigeTooltip">F</span>
+
+		</td>
+
+
+
+		<td headers="glossar_B">
+<span title="einundzwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XXI</span>
+
+		</td>
+
+
+
+		<td headers="glossar_B">
+<span title="B Bundeswahlvorschlag" class="zeigeTooltip">BWV</span>
 
 		</td>
 
@@ -13638,6 +13846,51 @@
 
 
 		<td headers="glossar_F">
+<a href="/WWER/PAD_03130/index.shtml" ><img class="icon" title="" alt="" src="/img/icons/small/Link.gif">Ferrero-Waldner Benita-Maria, Dr. siehe Ferrero-Waldner Benita, Dr.
+</a>
+		</td>
+
+
+
+		<td headers="glossar_F">
+<span title="Parlamentsklub der Österreichischen Volkspartei" class="zeigeTooltip">ÖVP</span>
+
+		</td>
+
+
+
+		<td headers="glossar_F">
+<span title="zwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XX</span>, <span title="einundzwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XXI</span>, <span title="zweiundzwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XXII</span>
+
+		</td>
+
+
+
+		<td headers="glossar_F">
+<span title="B Bundeswahlvorschlag" class="zeigeTooltip">BWV</span>
+
+		</td>
+
+
+
+
+		</tr>
+
+
+		<tr >
+
+
+
+            <th class="grau">&nbsp;</th>
+
+
+
+
+
+
+
+
+		<td headers="glossar_F">
 <a href="/WWER/PAD_00318/index.shtml" ><img class="icon" title="" alt="" src="/img/icons/small/Link.gif">Fertl Rudolf, Dr.
 </a>
 		</td>
@@ -15265,7 +15518,7 @@
 
 
 		<td headers="glossar_F">
-<span title="Parlamentsklub Team Stronach" class="zeigeTooltip">STRONACH</span>, <span title="Parlamentsklub der Österreichischen Volkspartei" class="zeigeTooltip">ÖVP</span>
+<span title="Parlamentsklub Team Stronach" class="zeigeTooltip">STRONACH</span>, <span title="Parlamentsklub der Österreichischen Volkspartei" class="zeigeTooltip">ÖVP</span>, <span title="ohne Klubzugehörigkeit" class="zeigeTooltip">OK</span>
 
 		</td>
 
@@ -16179,7 +16432,7 @@
 
 
 		<td headers="glossar_F">
-<span title="9G Wien Nord" class="zeigeTooltip">W</span>
+<span title="9G Wien Nord" class="zeigeTooltip">W</span>, <span title="B Bundeswahlvorschlag" class="zeigeTooltip">BWV</span>
 
 		</td>
 
@@ -26066,6 +26319,51 @@
 
 
 		<td headers="glossar_H">
+<a href="/WWER/PAD_00586/index.shtml" ><img class="icon" title="" alt="" src="/img/icons/small/Link.gif">Hieden Helga, Dr. siehe Hieden-Sommer Helga, Dr.
+</a>
+		</td>
+
+
+
+		<td headers="glossar_H">
+<span title="Klub der Sozialistischen Abgeordneten und Bundesräte" class="zeigeTooltip">SPÖ</span>
+
+		</td>
+
+
+
+		<td headers="glossar_H">
+<span title="sechzehnte Gesetzgebungsperiode" class="zeigeTooltip">XVI</span>, <span title="siebzehnte Gesetzgebungsperiode" class="zeigeTooltip">XVII</span>
+
+		</td>
+
+
+
+		<td headers="glossar_H">
+<span title="W2 Wahlkreisverband II (K, OÖ, S, St, T u V)" class="zeigeTooltip">2</span>, <span title="2 Kärnten" class="zeigeTooltip">K</span>
+
+		</td>
+
+
+
+
+		</tr>
+
+
+		<tr >
+
+
+
+            <th class="grau">&nbsp;</th>
+
+
+
+
+
+
+
+
+		<td headers="glossar_H">
 <a href="/WWER/PAD_00586/index.shtml" ><img class="icon" title="" alt="" src="/img/icons/small/Link.gif">Hieden-Sommer Helga, Dr.
 </a>
 		</td>
@@ -28271,6 +28569,51 @@
 
 
 		<td headers="glossar_H">
+<a href="/WWER/PAD_00717/index.shtml" ><img class="icon" title="" alt="" src="/img/icons/small/Link.gif">Horvath Waltraud, Mag. siehe Schütz Waltraud, Mag.
+</a>
+		</td>
+
+
+
+		<td headers="glossar_H">
+<span title="Klub der Sozialistischen Abgeordneten und Bundesräte, Sozialdemokratische Parlamentsfraktion - Klub der sozialdemokratischen Abgeordneten und Bundesräte" class="zeigeTooltip">SPÖ</span>
+
+		</td>
+
+
+
+		<td headers="glossar_H">
+<span title="siebzehnte Gesetzgebungsperiode" class="zeigeTooltip">XVII</span>, <span title="achtzehnte Gesetzgebungsperiode" class="zeigeTooltip">XVIII</span>
+
+		</td>
+
+
+
+		<td headers="glossar_H">
+<span title="4 Oberösterreich" class="zeigeTooltip">O</span>
+
+		</td>
+
+
+
+
+		</tr>
+
+
+		<tr >
+
+
+
+            <th class="grau">&nbsp;</th>
+
+
+
+
+
+
+
+
+		<td headers="glossar_H">
 <a href="/WWER/PAD_00654/index.shtml" ><img class="icon" title="" alt="" src="/img/icons/small/Link.gif">Hosch Kaspar
 </a>
 		</td>
@@ -29989,7 +30332,7 @@
 
 
 		<td headers="glossar_J">
-<a href="/WWER/PAD_62360/index.shtml" ><img class="icon" title="" alt="" src="/img/icons/small/Link.gif">Jenewein Hans-Jörg
+<a href="/WWER/PAD_62360/index.shtml" ><img class="icon" title="" alt="" src="/img/icons/small/Link.gif">Jenewein Hans-Jörg, MA
 </a>
 		</td>
 
@@ -33413,6 +33756,51 @@
 
 
 		<td headers="glossar_K">
+<a href="/WWER/PAD_88857/index.shtml" ><img class="icon" title="" alt="" src="/img/icons/small/Link.gif">Klinger Wolfgang, Ing.
+</a>
+		</td>
+
+
+
+		<td headers="glossar_K">
+<span title="Freiheitlicher Parlamentsklub" class="zeigeTooltip">FPÖ</span>
+
+		</td>
+
+
+
+		<td headers="glossar_K">
+<span title="fünfundzwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XXV</span>
+
+		</td>
+
+
+
+		<td headers="glossar_K">
+<span title="4C Hausruckviertel" class="zeigeTooltip">O</span>
+
+		</td>
+
+
+
+
+		</tr>
+
+
+		<tr >
+
+
+
+            <th class="grau">&nbsp;</th>
+
+
+
+
+
+
+
+
+		<td headers="glossar_K">
 <a href="/WWER/PAD_00835/index.shtml" ><img class="icon" title="" alt="" src="/img/icons/small/Link.gif">Klomfar Helmut
 </a>
 		</td>
@@ -33795,6 +34183,51 @@
 
 		<td headers="glossar_K">
 <span title="16 Mühlviertel" class="zeigeTooltip">O</span>
+
+		</td>
+
+
+
+
+		</tr>
+
+
+		<tr >
+
+
+
+            <th class="grau">&nbsp;</th>
+
+
+
+
+
+
+
+
+		<td headers="glossar_K">
+<a href="/WWER/PAD_30352/index.shtml" ><img class="icon" title="" alt="" src="/img/icons/small/Link.gif">Knoll-Lacina Gertraud, Mag. siehe Knoll Gertraud, Mag.
+</a>
+		</td>
+
+
+
+		<td headers="glossar_K">
+<span title="Die Sozialdemokratische Parlamentsfraktion - Klub der sozialdemokratischen Abgeordneten zum Nationalrat, Bundesrat und Europäischen Parlament" class="zeigeTooltip">SPÖ</span>
+
+		</td>
+
+
+
+		<td headers="glossar_K">
+<span title="dreiundzwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XXIII</span>
+
+		</td>
+
+
+
+		<td headers="glossar_K">
+<span title="B Bundeswahlvorschlag" class="zeigeTooltip">BWV</span>
 
 		</td>
 
@@ -39334,6 +39767,51 @@
 
 		<td headers="glossar_L">
 <span title="9D Wien Süd" class="zeigeTooltip">W</span>
+
+		</td>
+
+
+
+
+		</tr>
+
+
+		<tr >
+
+
+
+            <th class="grau">&nbsp;</th>
+
+
+
+
+
+
+
+
+		<td headers="glossar_L">
+<a href="/WWER/PAD_88823/index.shtml" ><img class="icon" title="" alt="" src="/img/icons/small/Link.gif">Lasar David
+</a>
+		</td>
+
+
+
+		<td headers="glossar_L">
+<span title="Freiheitlicher Parlamentsklub" class="zeigeTooltip">FPÖ</span>
+
+		</td>
+
+
+
+		<td headers="glossar_L">
+<span title="fünfundzwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XXV</span>
+
+		</td>
+
+
+
+		<td headers="glossar_L">
+<span title="9G Wien Nord" class="zeigeTooltip">W</span>
 
 		</td>
 
@@ -50003,14 +50481,14 @@
 
 
 		<td headers="glossar_O">
-<span title="neunzehnte Gesetzgebungsperiode" class="zeigeTooltip">XIX</span>, <span title="zwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XX</span>, <span title="einundzwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XXI</span>, <span title="zweiundzwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XXII</span>, <span title="dreiundzwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XXIII</span>, <span title="vierundzwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XXIV</span>
+<span title="neunzehnte Gesetzgebungsperiode" class="zeigeTooltip">XIX</span>, <span title="zwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XX</span>, <span title="einundzwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XXI</span>, <span title="zweiundzwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XXII</span>, <span title="dreiundzwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XXIII</span>, <span title="vierundzwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XXIV</span>, <span title="fünfundzwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XXV</span>
 
 		</td>
 
 
 
 		<td headers="glossar_O">
-<span title="9 Wien" class="zeigeTooltip">W</span>, <span title="B Bundeswahlvorschlag" class="zeigeTooltip">BWV</span>
+<span title="9 Wien" class="zeigeTooltip">W</span>, <span title="B Bundeswahlvorschlag" class="zeigeTooltip">BWV</span>, <span title="9 Wien" class="zeigeTooltip">W</span>
 
 		</td>
 
@@ -52963,7 +53441,7 @@
 
 
 		<td headers="glossar_P">
-<a href="/WWER/PAD_83124/index.shtml" ><img class="icon" title="" alt="" src="/img/icons/small/Link.gif">Pock Michael
+<a href="/WWER/PAD_83124/index.shtml" ><img class="icon" title="" alt="" src="/img/icons/small/Link.gif">Pock Michael siehe Bernhard Michael
 </a>
 		</td>
 
@@ -54335,6 +54813,51 @@
 
 		<td headers="glossar_P">
 <span title="9 Viertel unterm Wienerwald" class="zeigeTooltip">N</span>
+
+		</td>
+
+
+
+
+		</tr>
+
+
+		<tr >
+
+
+
+            <th class="grau">&nbsp;</th>
+
+
+
+
+
+
+
+
+		<td headers="glossar_P">
+<a href="/WWER/PAD_35496/index.shtml" ><img class="icon" title="" alt="" src="/img/icons/small/Link.gif">Prettenthaler Sylvia siehe Rinner Sylvia
+</a>
+		</td>
+
+
+
+		<td headers="glossar_P">
+<span title="Die Sozialdemokratische Parlamentsfraktion - Klub der sozialdemokratischen Abgeordneten zum Nationalrat, Bundesrat und Europäischen Parlament" class="zeigeTooltip">SPÖ</span>
+
+		</td>
+
+
+
+		<td headers="glossar_P">
+<span title="dreiundzwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XXIII</span>
+
+		</td>
+
+
+
+		<td headers="glossar_P">
+<span title="6 Steiermark" class="zeigeTooltip">St</span>
 
 		</td>
 
@@ -57669,6 +58192,51 @@
 
 		<td headers="glossar_R">
 <span title="3 Niederösterreich, 3 Niederösterreich" class="zeigeTooltip">N</span>
+
+		</td>
+
+
+
+
+		</tr>
+
+
+		<tr >
+
+
+
+            <th class="grau">&nbsp;</th>
+
+
+
+
+
+
+
+
+		<td headers="glossar_R">
+<a href="/WWER/PAD_01688/index.shtml" ><img class="icon" title="" alt="" src="/img/icons/small/Link.gif">Riess Susanne, Dr. siehe Riess-Passer Susanne, Dr.
+</a>
+		</td>
+
+
+
+		<td headers="glossar_R">
+<span title="Klub der Freiheitlichen Partei Österreichs" class="zeigeTooltip">F</span>
+
+		</td>
+
+
+
+		<td headers="glossar_R">
+<span title="einundzwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XXI</span>
+
+		</td>
+
+
+
+		<td headers="glossar_R">
+<span title="7B Innsbruck-Land" class="zeigeTooltip">T</span>
 
 		</td>
 
@@ -61162,6 +61730,51 @@
 
 		<td headers="glossar_S">
 <a href="/WWER/PAD_01613/index.shtml" ><img class="icon" title="" alt="" src="/img/icons/small/Link.gif">Schieder Peter, Dr. h.c.
+</a>
+		</td>
+
+
+
+		<td headers="glossar_S">
+<span title="Klub der Sozialistischen Abgeordneten und Bundesräte, Sozialdemokratische Parlamentsfraktion - Klub der sozialdemokratischen Abgeordneten und Bundesräte, Die Sozialdemokratische Parlamentsfraktion - Klub der sozialdemokratischen Abgeordneten zum Nationalrat, Bundesrat und Europäischen Parlament" class="zeigeTooltip">SPÖ</span>
+
+		</td>
+
+
+
+		<td headers="glossar_S">
+<span title="zwölfte Gesetzgebungsperiode" class="zeigeTooltip">XII</span>, <span title="dreizehnte Gesetzgebungsperiode" class="zeigeTooltip">XIII</span>, <span title="sechzehnte Gesetzgebungsperiode" class="zeigeTooltip">XVI</span>, <span title="siebzehnte Gesetzgebungsperiode" class="zeigeTooltip">XVII</span>, <span title="achtzehnte Gesetzgebungsperiode" class="zeigeTooltip">XVIII</span>, <span title="neunzehnte Gesetzgebungsperiode" class="zeigeTooltip">XIX</span>, <span title="zwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XX</span>, <span title="einundzwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XXI</span>, <span title="zweiundzwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XXII</span>
+
+		</td>
+
+
+
+		<td headers="glossar_S">
+<span title="7 Wien West, 9 Wien, 9E Wien Süd-West" class="zeigeTooltip">W</span>
+
+		</td>
+
+
+
+
+		</tr>
+
+
+		<tr >
+
+
+
+            <th class="grau">&nbsp;</th>
+
+
+
+
+
+
+
+
+		<td headers="glossar_S">
+<a href="/WWER/PAD_01613/index.shtml" ><img class="icon" title="" alt="" src="/img/icons/small/Link.gif">Schieder Peter siehe Schieder Peter, Dr. h.c.
 </a>
 		</td>
 
@@ -79627,6 +80240,51 @@
 
 
 		<td headers="glossar_W">
+<a href="/WWER/PAD_08238/index.shtml" ><img class="icon" title="" alt="" src="/img/icons/small/Link.gif">Wolfmayr Andrea, Dr. siehe Wolfmayr Andrea, Mag. Dr.
+</a>
+		</td>
+
+
+
+		<td headers="glossar_W">
+<span title="Parlamentsklub der Österreichischen Volkspartei" class="zeigeTooltip">ÖVP</span>
+
+		</td>
+
+
+
+		<td headers="glossar_W">
+<span title="einundzwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XXI</span>, <span title="zweiundzwanzigste Gesetzgebungsperiode" class="zeigeTooltip">XXII</span>
+
+		</td>
+
+
+
+		<td headers="glossar_W">
+<span title="6 Steiermark" class="zeigeTooltip">St</span>
+
+		</td>
+
+
+
+
+		</tr>
+
+
+		<tr >
+
+
+
+            <th class="grau">&nbsp;</th>
+
+
+
+
+
+
+
+
+		<td headers="glossar_W">
 <a href="/WWER/PAD_08238/index.shtml" ><img class="icon" title="" alt="" src="/img/icons/small/Link.gif">Wolfmayr Andrea, Mag. Dr.
 </a>
 		</td>
@@ -81675,7 +82333,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=A&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=A&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">A</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=A&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=A&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">A</a> <span class="hidden">.</span>
 
 
 
@@ -81683,7 +82341,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=B&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=B&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">B</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=B&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=B&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">B</a> <span class="hidden">.</span>
 
 
 
@@ -81691,7 +82349,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=C&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=C&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">C</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=C&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=C&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">C</a> <span class="hidden">.</span>
 
 
 
@@ -81699,7 +82357,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=D&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=D&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">D</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=D&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=D&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">D</a> <span class="hidden">.</span>
 
 
 
@@ -81707,7 +82365,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=E&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=E&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">E</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=E&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=E&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">E</a> <span class="hidden">.</span>
 
 
 
@@ -81715,7 +82373,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=F&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=F&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">F</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=F&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=F&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">F</a> <span class="hidden">.</span>
 
 
 
@@ -81723,7 +82381,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=G&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=G&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">G</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=G&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=G&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">G</a> <span class="hidden">.</span>
 
 
 
@@ -81731,7 +82389,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=H&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=H&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">H</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=H&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=H&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">H</a> <span class="hidden">.</span>
 
 
 
@@ -81739,7 +82397,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=I&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=I&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">I</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=I&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=I&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">I</a> <span class="hidden">.</span>
 
 
 
@@ -81747,7 +82405,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=J&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=J&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">J</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=J&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=J&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">J</a> <span class="hidden">.</span>
 
 
 
@@ -81755,7 +82413,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=K&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=K&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">K</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=K&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=K&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">K</a> <span class="hidden">.</span>
 
 
 
@@ -81763,7 +82421,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=L&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=L&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">L</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=L&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=L&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">L</a> <span class="hidden">.</span>
 
 
 
@@ -81771,7 +82429,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=M&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=M&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">M</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=M&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=M&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">M</a> <span class="hidden">.</span>
 
 
 
@@ -81779,7 +82437,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=N&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=N&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">N</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=N&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=N&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">N</a> <span class="hidden">.</span>
 
 
 
@@ -81787,7 +82445,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=O&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=O&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">O</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=O&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=O&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">O</a> <span class="hidden">.</span>
 
 
 
@@ -81795,7 +82453,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=P&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=P&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">P</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=P&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=P&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">P</a> <span class="hidden">.</span>
 
 
 
@@ -81803,7 +82461,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=R&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=R&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">R</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=R&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=R&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">R</a> <span class="hidden">.</span>
 
 
 
@@ -81811,7 +82469,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=S&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=S&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">S</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=S&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=S&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">S</a> <span class="hidden">.</span>
 
 
 
@@ -81819,7 +82477,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=T&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=T&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">T</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=T&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=T&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">T</a> <span class="hidden">.</span>
 
 
 
@@ -81827,7 +82485,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=U&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=U&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">U</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=U&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=U&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">U</a> <span class="hidden">.</span>
 
 
 
@@ -81835,7 +82493,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=V&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=V&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">V</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=V&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=V&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">V</a> <span class="hidden">.</span>
 
 
 
@@ -81843,7 +82501,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=W&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=W&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">W</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=W&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=W&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">W</a> <span class="hidden">.</span>
 
 
 
@@ -81851,7 +82509,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=Y&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=Y&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">Y</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=Y&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=Y&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">Y</a> <span class="hidden">.</span>
 
 
 
@@ -81859,7 +82517,7 @@
 
 
 
-				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=Z&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;requestId=F2FB6FC103&amp;jsMode=&amp;LISTE=&amp;W=W&amp;letter=Z&amp;WP=ALLE&amp;listeId=4&amp;R_WF=FR'); return false;">Z</a> <span class="hidden">.</span>
+				<a href="/WWER/NR/ABG/index.shtml?xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=Z&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4" onclick="rearrangeFilterListeFW_004('xdocumentUri=%2FWWER%2FNR%2FABG%2Findex.shtml&amp;R_BW=BL&amp;GP=ALLE&amp;BL=ALLE&amp;STEP=&amp;FR=ALLE&amp;M=M&amp;NRBR=NR&amp;FBEZ=FW_004&amp;WK=ALLE&amp;LISTE=&amp;jsMode=&amp;requestId=FA1CCF38F9&amp;W=W&amp;letter=Z&amp;WP=ALLE&amp;R_WF=FR&amp;listeId=4'); return false;">Z</a> <span class="hidden">.</span>
 
 
 
@@ -81867,7 +82525,7 @@
 			<div class="paginationRechts">
 
 
-				<span class="active-page">1778 Ergebnisse <img src="/img/icons/small/Weitere_anzeigen.gif" class="icon" alt=""></span>
+				<span class="active-page">1792 Ergebnisse <img src="/img/icons/small/Weitere_anzeigen.gif" class="icon" alt=""></span>
 
 
 
@@ -81888,191 +82546,283 @@
 </div>
 
 <script type="text/javascript">
+	function insertUploadField(id) {
+		$(id)
+				.insert(
+						{
+							before : '<div><a href="#" onclick="$(this).up().remove()">X</a> <input type=\"file\" name=\"files\" onchange=\"loadFile(this)\"> <a class=\"output\"/></div>'
+						});
 
-function evalRssListeFW_004() {
-	// Clear errors
-	var errors = $$('div.formularFehler');
-	for (var i = 0; i < errors.length; i++) {
-  		errors[i].remove();
 	}
-	//$('filterListeFW_004').update('Bitte warten...');
-	// Set the additional fields
-	document.getElementById('filterFormFW_004').jsMode.value = 'RSS';
-	document.getElementById('filterFormFW_004').xdocumentUri.value = '/WWER/NR/ABG/index.shtml';
-	var params = $('filterFormFW_004').serialize();
-	// alert('Evaluation requested: ' + params);
-	var url = 'filter.psp?view=RSS&' + params;
 
-	//alert(url);
-	
-
-	window.open(url,'_self',false);
-//	return url;
-	
-}
-
-var listeRequestCount = 0;
-
-function evalFilterListeFW_004() {	
-
-	if(listeRequestCount > 0)
-		return;
-
-	listeRequestCount = 1;
-	
-	// Clear errors
-	var errors = $$('div.formularFehler');
-	for (var i = 0; i < errors.length; i++) {
-  		errors[i].remove();
-	}	
-	$('filterListeFW_004').update('Bitte warten...');
-	// Set the additional fields
-	document.getElementById('filterFormFW_004').jsMode.value = 'EVAL';
-	document.getElementById('filterFormFW_004').xdocumentUri.value = '/WWER/NR/ABG/index.shtml';
-	var params = $('filterFormFW_004').serialize();
-	// alert('Evaluation requested: ' + params);
-	var url = 'filter.psp?' + params;
-	new Ajax.Request(url, {
-	  method: 'get',
-	  onSuccess: function(transport) {
-		if (transport.responseText.indexOf('<!-- FilterFields -->') != -1) {
-			$('filterFieldsFW_004').update(transport.responseText);
-			$$('.hideButton').invoke('hide');
-			$('filterListeFW_004').update('');
-		} else {
-			$('filterListeFW_004').update(transport.responseText);
-		}
-	    storagePutFW_004();
-	    registerToolTipsOnLoad();
-	    
-	    if(AutoComplete) {
-			AutoComplete.fieldsUpdateHandler();
-		}
-	    listeRequestCount = 0;
-	  },
-	  onFailure: function(response) { listeRequestCount = 0; }
-	});
-	// Unset the additional fields
-	document.getElementById('filterFormFW_004').jsMode.value = '';
-	document.getElementById('filterFormFW_004').xdocumentUri.value = '';
-}
-
-function evalFilterFieldsFW_004() {
-	$('filterListeFW_004').update('Bitte warten...');
-	// Set the additional fields
-	document.getElementById('filterFormFW_004').jsMode.value = 'FIELDS';
-	document.getElementById('filterFormFW_004').xdocumentUri.value = '/WWER/NR/ABG/index.shtml';
-	var params = $('filterFormFW_004').serialize();
-	// alert('Evaluation requested: ' + params);
-	var url = 'filter.psp?' + params;
-	new Ajax.Request(url, {
-	  method: 'get',
-	  onSuccess: function(transport) {
-		$('filterFieldsFW_004').update(transport.responseText);
-		$$('.hideButton').invoke('hide');
-		$('filterListeFW_004').update('');
-		registerToolTipsOnLoad();
-		
-		if(AutoComplete) {
-			AutoComplete.fieldsUpdateHandler();
-		}
-	  }
-	});
-	// Unset the additional fields
-	document.getElementById('filterFormFW_004').jsMode.value = '';
-	document.getElementById('filterFormFW_004').xdocumentUri.value = '';
-}
-
-function resetFilterFieldsFW_004() {
-	// This is used when the user applies the reset button.
-	$('filterListeFW_004').update('Bitte warten...');
-	document.getElementById('filterFormFW_004').jsMode.value = 'ZUR';
-	document.getElementById('filterFormFW_004').xdocumentUri.value = '/WWER/NR/ABG/index.shtml';
-	var params = $('filterFormFW_004').serialize();
-	var url = 'filter.psp?' + params;
-	new Ajax.Request(url, {
-	  method: 'get',
-	  onSuccess: function(transport) {
-		$('filterFieldsFW_004').update(transport.responseText);
-		$$('.hideButton').invoke('hide');
-		$('filterListeFW_004').update('');
-		registerToolTipsOnLoad();
-		
-		if(AutoComplete) {
-			AutoComplete.fieldsUpdateHandler();
-		}
-	  }
-	});
-	// Unset the additional fields
-	document.getElementById('filterFormFW_004').jsMode.value = '';
-	document.getElementById('filterFormFW_004').xdocumentUri.value = '';
-}
-
-function rearrangeFilterListeFW_004(params) {
-	$('filterListeFW_004').update('Bitte warten...');
-	var url = 'filterRearrange.psp?' + params;
-	new Ajax.Request(url, {
-	  method: 'get',
-	  onSuccess: function(transport) {
-	    $('filterListeFW_004').update(transport.responseText);
-	    storagePutFW_004();
-	    registerToolTipsOnLoad();
-	    
-	    if(AutoComplete) {
-			AutoComplete.fieldsUpdateHandler();
-		}
-	  }
-	});
-}
-
-function storagePutFW_004() {
-	if ((navigator.appVersion.indexOf('MSIE') != -1) &&
-		(window.sessionStorage != null)) {
-		var randomNumber = Math.floor(Math.random() * 100000000);
-
-    	window.location.hash = "#" + randomNumber;
-
-    	if($('filterListeFW_004') != null) {
-
-        	try {
-
-        		var htData = $('filterListeFW_004').innerHTML;
-				if(htData == null || htData == "")
-					htData = " ";
-
-				var htFields = $('filterFieldsFW_004').innerHTML;
-				if(htFields == null || htFields == "")
-					htFields = " ";
-       		           	
-    			window.sessionStorage.setItem("filterListe", htData);
-    			window.sessionStorage.setItem("filterFields", htFields);
-    			window.sessionStorage.setItem("filterHash",randomNumber);
-        	}
-        	catch(e) {;}
-        }
-    	
+	function removeUploadField(value) {
+		alert(value);
+		value.remove();
 	}
-}
 
-function storageGetFW_004() {
-	if ((navigator.appVersion.indexOf('MSIE') != -1) &&
-		(window.sessionStorage != null) &&
-		(window.location.hash != null) &&
-		(window.sessionStorage.filterHash != null) &&
-		(window.sessionStorage.filterHash == window.location.hash.substr(1)) &&
-		(window.sessionStorage.filterListe != null) && 
-		(window.sessionStorage.filterFields != null)) {
-		document.getElementById('filterListeFW_004').innerHTML = window.sessionStorage.filterListe;
-		document.getElementById('filterFieldsFW_004').innerHTML = window.sessionStorage.filterFields;
+	var loadFile = function(src) {
+
+		var ansichtLink = src.up().children[2];
+		ansichtLink.innerText = '(Ansicht)';
+
+		var file = src.files[0];
+		ansichtLink.href = URL.createObjectURL(file);
+	};
+
+	function evalRssListeFW_004() {
+		var errors = $$('div.formularFehler');
+		for (var i = 0; i < errors.length; i++) {
+			errors[i].remove();
+		}
+		document.getElementById('filterFormFW_004').jsMode.value = 'RSS';
+		document.getElementById('filterFormFW_004').xdocumentUri.value = '/WWER/NR/ABG/index.shtml';
+		var params = $('filterFormFW_004').serialize();
+		var url = 'filter.psp?view=RSS&' + params;
+
+		window.open(url, '_self', false);
+
 	}
-}
 
-Event.observe(window, 'load', function () {
-	storageGetFW_004();
-});
+	var listeRequestCount = 0;
 
-Bookmark.filters.push('FW_004');
+	/**
+	 * Emulate FormData for some browsers
+	 * MIT License
+	 * (c) 2010 François de Metz
+	 */
+ 	(function(w) {
+		if (w.FormData)
+			return;
+		function FormData() {
+			this.fake = true;
+			this.boundary = "--------FormData" + Math.random();
+			this._fields = [];
+		}
+		FormData.prototype.append = function(key, value) {
+			this._fields.push([ key, value ]);
+		}
+		FormData.prototype.toString = function() {
+			var boundary = this.boundary;
+			var body = "";
+			this._fields.forEach(function(field) {
+				body += "--" + boundary + "\r\n";
+				if (field[1].name) {
+					var file = field[1];
+					body += "Content-Disposition: form-data; name=\""
+							+ field[0] + "\"; filename=\"" + file.name
+							+ "\"\r\n";
+					body += "Content-Type: " + file.type + "\r\n\r\n";
+					body += file.getAsBinary() + "\r\n";
+				} else {
+					body += "Content-Disposition: form-data; name=\""
+							+ field[0] + "\";\r\n\r\n";
+					body += field[1] + "\r\n";
+				}
+			});
+			body += "--" + boundary + "--";
+			return body;
+		}
+		w.FormData = FormData;
+	})(window);
 
+	function submitFilterFW_004() {
+		var form = document
+				.getElementById('filterFormFW_004');
+		var url = form.action;
+
+		var data = new FormData(form);
+
+		$('filterFormFW_021').request({
+			requestHeaders : {
+				"X-Prototype-Version" : null,
+				"Accept-Encoding" : "multipart/form-data",
+				'Content-Type' : undefined
+			},
+			method : form.method,
+			postBody : data,
+			onSuccess : function(response) {
+				alert(response.responseText)
+			}
+		});
+	}
+
+	function evalFilterListeFW_004() {
+
+		if (listeRequestCount > 0)
+			return;
+
+		listeRequestCount = 1;
+
+		var errors = $$('div.formularFehler');
+		for (var i = 0; i < errors.length; i++) {
+			errors[i].remove();
+		}
+		$('filterListeFW_004')
+				.update(
+						'Bitte warten...');
+		document.getElementById('filterFormFW_004').jsMode.value = 'EVAL';
+		document.getElementById('filterFormFW_004').xdocumentUri.value = '/WWER/NR/ABG/index.shtml';
+		var params = $('filterFormFW_004').serialize();
+		var url = 'filter.psp?' + params;
+		new Ajax.Request(url,
+				{
+					method : 'get',
+					onSuccess : function(transport) {
+						if (transport.responseText
+								.indexOf('<!-- FilterFields -->') != -1) {
+							$('filterFieldsFW_004')
+									.update(transport.responseText);
+							$$('.hideButton').invoke('hide');
+							$('filterListeFW_004')
+									.update('');
+						} else {
+							$('filterListeFW_004')
+									.update(transport.responseText);
+						}
+						storagePutFW_004();
+						registerToolTipsOnLoad();
+
+						if (AutoComplete) {
+							AutoComplete.fieldsUpdateHandler();
+						}
+						listeRequestCount = 0;
+					},
+					onFailure : function(response) {
+						listeRequestCount = 0;
+						if (response.status==401) {
+							$('filterListeFW_004').update('Autorisierung notwendig - bitte melden Sie sich neu an.');
+						} else {
+							$('filterListeFW_004').update('Derzeit nicht verfügbar, bitte versuchen Sie es später erneut.');
+						}
+					}
+				});
+		document.getElementById('filterFormFW_004').jsMode.value = '';
+		document.getElementById('filterFormFW_004').xdocumentUri.value = '';
+	}
+
+	function evalFilterFieldsFW_004() {
+		$('filterListeFW_004')
+				.update(
+						'Bitte warten...');
+		document.getElementById('filterFormFW_004').jsMode.value = 'FIELDS';
+		document.getElementById('filterFormFW_004').xdocumentUri.value = '/WWER/NR/ABG/index.shtml';
+		var params = $('filterFormFW_004').serialize();
+		var url = 'filter.psp?' + params;
+		new Ajax.Request(url, {
+			method : 'get',
+			onSuccess : function(transport) {
+				$('filterFieldsFW_004').update(
+						transport.responseText);
+				$$('.hideButton').invoke('hide');
+				$('filterListeFW_004').update('');
+				registerToolTipsOnLoad();
+
+				if (AutoComplete) {
+					AutoComplete.fieldsUpdateHandler();
+				}
+			}
+		});
+		document.getElementById('filterFormFW_004').jsMode.value = '';
+		document.getElementById('filterFormFW_004').xdocumentUri.value = '';
+	}
+
+	function resetFilterFieldsFW_004() {
+		$('filterListeFW_004')
+				.update(
+						'Bitte warten...');
+		document.getElementById('filterFormFW_004').jsMode.value = 'ZUR';
+		document.getElementById('filterFormFW_004').xdocumentUri.value = '/WWER/NR/ABG/index.shtml';
+		var params = $('filterFormFW_004').serialize();
+		var url = 'filter.psp?' + params;
+		new Ajax.Request(url, {
+			method : 'get',
+			onSuccess : function(transport) {
+				$('filterFieldsFW_004').update(
+						transport.responseText);
+				$$('.hideButton').invoke('hide');
+				$('filterListeFW_004').update('');
+				registerToolTipsOnLoad();
+
+				if (AutoComplete) {
+					AutoComplete.fieldsUpdateHandler();
+				}
+			}
+		});
+		document.getElementById('filterFormFW_004').jsMode.value = '';
+		document.getElementById('filterFormFW_004').xdocumentUri.value = '';
+	}
+
+	function rearrangeFilterListeFW_004(params) {
+		$('filterListeFW_004')
+				.update(
+						'Bitte warten...');
+		var url = 'filterRearrange.psp?' + params;
+		new Ajax.Request(url, {
+			method : 'get',
+			onSuccess : function(transport) {
+				$('filterListeFW_004').update(
+						transport.responseText);
+				storagePutFW_004();
+				registerToolTipsOnLoad();
+
+				if (AutoComplete) {
+					AutoComplete.fieldsUpdateHandler();
+				}
+			}
+		});
+	}
+
+	function storagePutFW_004() {
+		if ((navigator.appVersion.indexOf('MSIE') != -1)
+				&& (window.sessionStorage != null)) {
+			var randomNumber = Math.floor(Math.random() * 100000000);
+
+			window.location.hash = "#" + randomNumber;
+
+			if ($('filterListeFW_004') != null) {
+
+				try {
+
+					var htData = $('filterListeFW_004').innerHTML;
+					if (htData == null || htData == "")
+						htData = " ";
+
+					var htFields = $('filterFieldsFW_004').innerHTML;
+					if (htFields == null || htFields == "")
+						htFields = " ";
+
+					window.sessionStorage.setItem("filterListe", htData);
+					window.sessionStorage.setItem("filterFields", htFields);
+					window.sessionStorage.setItem("filterHash", randomNumber);
+				} catch (e) {
+					;
+				}
+			}
+
+		}
+	}
+
+	function storageGetFW_004() {
+		if ((navigator.appVersion.indexOf('MSIE') != -1)
+				&& (window.sessionStorage != null)
+				&& (window.location.hash != null)
+				&& (window.sessionStorage.filterHash != null)
+				&& (window.sessionStorage.filterHash == window.location.hash
+						.substr(1))
+				&& (window.sessionStorage.filterListe != null)
+				&& (window.sessionStorage.filterFields != null)) {
+			document
+					.getElementById('filterListeFW_004').innerHTML = window.sessionStorage.filterListe;
+			document
+					.getElementById('filterFieldsFW_004').innerHTML = window.sessionStorage.filterFields;
+		}
+	} 
+
+	Event.observe(window, 'load', function() {
+		storageGetFW_004();
+	});
+
+	Bookmark.filters.push('FW_004');
 </script>
 </div>
 							</div>
