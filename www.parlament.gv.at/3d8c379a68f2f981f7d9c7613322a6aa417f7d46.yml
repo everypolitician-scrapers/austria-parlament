@@ -20,7 +20,7 @@ response:
     Server:
     - nginx
     Date:
-    - Sat, 03 Dec 2016 13:34:47 GMT
+    - Fri, 06 Jan 2017 04:39:48 GMT
     Content-Type:
     - text/html
     Connection:
@@ -30,12 +30,12 @@ response:
     Cache-Control:
     - max-age=0
     Expires:
-    - Sat, 03 Dec 2016 13:34:47 GMT
+    - Fri, 06 Jan 2017 04:39:48 GMT
     Strict-Transport-Security:
     - max-age=31536000
     Content-Length:
-    - '24931'
+    - '24844'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sat, 03 Dec 2016 13:34:48 GMT
+recorded_at: Fri, 06 Jan 2017 04:39:49 GMT
