@@ -8,12 +8,12 @@
 	<meta name="language" content="de">
 	<meta name="description" content="Webseite des Österreichischen Parlaments.">
 	<title>Dr. Sabine Oberhauser, MAS, Biografie</title>
-	<link href="/css/screen.css?v=32330" media="all" rel="stylesheet" type="text/css">
+	<link href="/css/screen.css?v=47364" media="all" rel="stylesheet" type="text/css">
 	<link href="/css/jquery-ui.css?v=30889" media="all" rel="stylesheet" type="text/css">
-	<link href="/css/startseite.css?v=32080" media="all" rel="stylesheet" type="text/css">
+	<link href="/css/startseite.css?v=43209" media="all" rel="stylesheet" type="text/css">
 
 <!--[if IE]>
-	<link rel="stylesheet" href="/css/screen-ie.css?v=1.00" media="all" type="text/css" media="screen">
+	<link rel="stylesheet" href="/css/screen-ie.css?v=38933" media="all" type="text/css" media="screen">
 <![endif]-->
 <!--[if lte IE 6]>
 	<link rel="stylesheet" href="/css/screen-ie56.css?v=1.00" media="all" type="text/css" media="screen">
@@ -21,7 +21,7 @@
 <!--[if lt IE 6]>
 	<link rel="stylesheet" href="/css/screen-ie5.css?v=1.00" media="all" type="text/css" media="screen">
 <![endif]-->
-	<link href="/css/druck.css?v=1.01" rel="stylesheet" media="print, embossed"  type="text/css">
+	<link href="/css/druck.css?v=43159" rel="stylesheet" media="print, embossed"  type="text/css">
 <!--[if IE]>
 	<link href="/css/druck-ie.css?v=1.00" rel="stylesheet" media="print, embossed"  type="text/css">
 <![endif]-->
@@ -55,7 +55,7 @@
 	<noscript><p><img src="//www.parlament.gv.at/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
 <!-- End Piwik Code -->
 
-
+	
 <!--    #if expr="$PDVorlesen = 'J'" -->
 	<script type="text/javascript" language="JavaScript" src="/js/vorlesen.js?v=1.00"></script>
 	<script type="text/javascript" language="JavaScript" src="/js/util.js?v=1.0"></script>
@@ -88,10 +88,10 @@
     			<li lang="en"><a href="/LANG">OTHER LANGUAGES</a></li>
     			<li><a href="/LESP">LEICHTE SPRACHE</a></li>
 		</ul>
-		<span>LETZTES UPDATE: 22.12.2016; 02:19</span>
+		<span>LETZTES UPDATE: 24.02.2017; 08:59</span>
 		<h2 class="hidden">Seitenfunktionen</h2>
 		<ul id="siteFunction">
-			<li><a href="/GESP"><img alt="Infos in Geb&auml;rdensprache" src="/img/icons/BF.gif" class="icon iconBF nma"></a></li>
+    			<li><a href="/GESP"><img alt="Infos in Geb&auml;rdensprache" src="/img/icons/BF.gif" class="icon iconBF nma"></a></li>
     			<li><a onclick="resizeBody(-1); return false;" title="Bei deaktiviertem Java-Script bitte &uuml;ber Browser-Men&uuml; Ausw&auml;hlen" href="#"><img alt="Schriftgr&ouml;&szlig;e verkleinern" src="/img/icons/small/Schriftgroesse_klein.gif" class="icon nma"></a><a onclick="resizeBody(1); return false;" title="Bei deaktiviertem Java-Script bitte &uuml;ber Browser-Men&uuml; Ausw&auml;hlen" href="#"><img alt="Schriftgr&ouml;&szlig;e vergr&ouml;&szlig;ert" src="/img/icons/small/Schriftgroesse_gross.gif" class="icon nma"></a></li>
     			<li><a href="/KONF/RecommendPage.shtml?xbackUrl=/WWER/PAD_35509/index.shtml"><img alt="" src="/img/icons/small/empfehlen_schwarz.gif" class="icon">SEITE EMPFEHLEN</a></li>
     			<li><a href="javascript:window.print();"><img alt="" src="/img/icons/small/drucken_schwarz.gif" class="icon">SEITE DRUCKEN</a></li>		
@@ -146,7 +146,7 @@
             <div id="content">
 <div class="contentBlock h_1">
 
-<a class="addBookmark floatRight" href="/addBookmark.psp?xdocumentUri=/WWER/PAD_35509/index.shtml">
+<a class="addBookmark floatRight" id="addBookmark" href="/addBookmark.psp?xdocumentUri=/WWER/PAD_35509/index.shtml">
 <img src="/img/icons/medium/Lesezeichen.gif" alt="Diese Seite als Lesezeichen hinzuf&uuml;gen" title="Diese Seite als Lesezeichen hinzuf&uuml;gen" class="icon zeigeTooltip"></a>
 <h2 class="hidden">Standort</h2>
 <p class="breadcrumb">
@@ -175,7 +175,6 @@
 	<li id="Fotos"><a href="#tab-Fotos" onclick="toggleTabMenu(this); return false;">Fotos</a></li>
 	<li id="Ausschuesse"><a href="#tab-Ausschuesse" onclick="toggleTabMenu(this); return false;">Aussch&uuml;sse</a></li>
 	<li id="Plenum"><a href="#tab-Plenum" onclick="toggleTabMenu(this); return false;">Plenum</a></li>
-	<li id="Transparenz"><a href="#tab-Transparenz" onclick="toggleTabMenu(this); return false;">Transparenz</a></li>
 </ul>
  	</div>
 
@@ -199,41 +198,19 @@
 <div class="grauBox hideInMobileApp">
 	<strong><a href="#tab-Fotos" onClick="toggleTabMenuByHash('#tab-Fotos');"><img src="/img/icons/small/Link.gif" alt="" class="icon">Fotos</a></strong>
 </div>
-<div class="grauBox">
-<em>E-Mail:</em><ul class="lsNone">
-	<li><a href="mailto:sabine.oberhauser@bmgf.gv.at" class="mail">sabine.oberhauser@bmgf.gv.at</a></li>
-</ul>
-
-<em>Website:</em>
-<ul class="lsNonemitIcon">
-	<li><a href="http://www.bmgf.gv.at/" target="_blank" title="Dieser externe Link geht in einem neuen Fenster auf" class="noDecoration"><img src="/img/icons/small/Externer_Link.gif" alt="" class="icon">http://www.bmgf.gv.at/&#x200b;</a>
-</li>
-</ul>
-
-<em>Anschrift:</em><ul class="lsNone">
-	<li>Bundesministerium für Gesundheit und Frauen<br>Radetzkystraße 2<br>1030 Wien</li>
-</ul>
-
-<em>Telefon:</em><ul class="lsNone">
-	<li><a class="telefonicon" href="tel:+43 1 711 00-0"><img src="/img/icons/small/phone.png"></a><span class="telefonnummer">+43 1 711 00-0</span></li>
-</ul>
-
-
-</div>
-<!-- graue Box -->
 </div>
 <!-- linke Spalte -->
 <div class="rechteSpalte60">
 <h3 class="hidden">Lebenslauf</h3>
 <p><em>Geb.:</em> 30.08.1963, Wien<br>
+<em>Verst.:</em> 23.02.2017<br>
 <em>Beruf:</em> Ärztin für Kinder- und Jugendheilkunde<br>
  </p>
 <h4>Politische Mandate</h4>
 <ul class="lsNone">
 	<li>Abgeordnete zum Nationalrat (XXIV.&ndash;XXV. GP), SPÖ<br>03.12.2008 &ndash; 02.09.2014</li>
 	<li>Abgeordnete zum Nationalrat (XXIII. GP), SPÖ<br>30.10.2006 &ndash; 27.10.2008</li>
-	<li><div class="aktiv">
-Bundesministerin für Gesundheit und Frauen, <br>01.07.2016 &ndash; </div></li>
+	<li>Bundesministerin für Gesundheit und Frauen, <br>01.07.2016 &ndash; 23.02.2017</li>
 	<li>Bundesministerin für Gesundheit, <br>01.09.2014 &ndash; 30.06.2016</li>
 </ul>
 
@@ -258,7 +235,7 @@ Bundesministerin für Gesundheit und Frauen, <br>01.07.2016 &ndash; </div></li>
 <h4>Beruflicher Werdegang</h4>
 <ul class="lsNone">
 	<li> Oberärztin  2004</li>
-	<li> Ärztin  seit 1991</li>
+	<li> Ärztin 1991</li>
 </ul>
 
     <h4>Bildungsweg</h4>
@@ -271,7 +248,7 @@ Bundesministerin für Gesundheit und Frauen, <br>01.07.2016 &ndash; </div></li>
 </ul>
 
 
-<div id="stand">Stand: 11.02.2015</div>
+<div id="stand">Stand: 24.02.2017</div>
 </div>
 <!-- rechte Spalte -->
 <div class="clearFix"></div>
@@ -1550,7 +1527,7 @@ Reden in Plenarsitzungen im Nationalrat in der XXV. GP</a>
 
 
 
-   					<td rowspan="3" class="biogr_db_protokoll text">
+   					<td class="biogr_db_protokoll text">
 
 
    	&nbsp;
@@ -1565,7 +1542,7 @@ Reden in Plenarsitzungen im Nationalrat in der XXV. GP</a>
 
 
 
-   					<td class="biogr_db_sitzung">
+   					<td rowspan="2" class="biogr_db_sitzung">
 
 
    	<a href="/PAKT/VHG/XXV/NRSITZ/NRSITZ_00154/index.shtml"><img src="/img/icons/small/Link.gif" alt="" class="icon">154. Sitzung</a>
@@ -1575,7 +1552,7 @@ Reden in Plenarsitzungen im Nationalrat in der XXV. GP</a>
 
 
 
-   					<td class="biogr_db_datum">
+   					<td rowspan="2" class="biogr_db_datum">
 
 
    	24.11.2016
@@ -1589,6 +1566,41 @@ Reden in Plenarsitzungen im Nationalrat in der XXV. GP</a>
 
 
    	BFG 2016 und BFRG sowie BFG 2017, UG 24 Gesundheit und Frauen
+
+
+   	</td>
+
+
+
+   					<td class="biogr_db_protokoll text">
+
+
+   	S. <a href="/PAKT/VHG/XXV/NRSITZ/NRSITZ_00154/SEITE_0291.html" title="291. Seite des Stenografischen Protokolls">291</a>&ndash;295
+
+
+   	</td>
+			</tr>
+
+
+
+   				<tr>
+
+
+
+   					<td class="biogr_db_gegenstand">
+
+
+   	BFG 2016 und BFRG sowie BFG 2017, UG 24 Gesundheit und Frauen
+
+
+   	</td>
+
+
+
+   					<td class="biogr_db_protokoll text">
+
+
+   	S. <a href="/PAKT/VHG/XXV/NRSITZ/NRSITZ_00154/SEITE_0309.html" title="309. Seite des Stenografischen Protokolls">309</a>&ndash;310
 
 
    	</td>
@@ -1624,6 +1636,16 @@ Reden in Plenarsitzungen im Nationalrat in der XXV. GP</a>
 
 
    	Änderung des Gewebesicherheitsgesetzes
+
+
+   	</td>
+
+
+
+   					<td class="biogr_db_protokoll text">
+
+
+   	&nbsp;
 
 
    	</td>
@@ -3198,7 +3220,7 @@ Weitere parlamentarische Aktivit&auml;ten</a>
    	<ul><li><a href="/PAKT/PAD/index.shtml?NRBR=NR&amp;GP=XXV&amp;PAD=35509&amp;anwenden=Anwenden&amp;PADVHG=ALLE&amp;listeId=125&amp;FBEZ=FP_025" title="Filter fuer Antraege, Abfragen und andere Aktivitaeten"><img src="/img/icons/small/Link.gif" alt="" class="icon">Parlamentarische Aktivit&auml;ten im Nationalrat in der XXV. Gesetzgebungsperiode - online Abfrage</a></li>
 
 
-   	<li class="indexLink"><a href="/PAKT/VHG/XXV/WD/WD_00069/fname_509691.pdf" target="_blank" title="Dieser Link geht in einem neuen Fenster auf"><img src="/img/icons/small/PDF.gif" alt="" class="icon">Index zu den Stenographischen Protokollen des Nationalrates und des Bundesrates - I. Band: Personenregister - A. Bundesregierung, Staatssekret&auml;re, Pr&auml;sident und Vizepr&auml;sident des Rechnungshofes sowie Volksanw&auml;lte (XXV. GP) / PDF, 2373 KB</a> <span class="hidden"> . </span><a href="/PAKT/VHG/XXV/WD/WD_00069/fnameorig_509691.html" target="_blank" title="Dieser Link geht in einem neuen Fenster auf"><img src="/img/icons/small/PDF_schwarz.gif" alt="" class="iconInline">HTML, 690 KB</a></li>
+   	<li class="indexLink"><a href="/PAKT/VHG/XXV/WD/WD_00069/fname_509691.pdf" target="_blank" title="Dieser Link geht in einem neuen Fenster auf"><img src="/img/icons/small/PDF.gif" alt="" class="icon">Index zu den Stenographischen Protokollen des Nationalrates und des Bundesrates - I. Band: Personenregister - A. Bundesregierung, Staatssekret&auml;re, Pr&auml;sident und Vizepr&auml;sident des Rechnungshofes sowie Volksanw&auml;lte (XXV. GP) / PDF, 2509 KB</a> <span class="hidden"> . </span><a href="/PAKT/VHG/XXV/WD/WD_00069/fnameorig_509691.html" target="_blank" title="Dieser Link geht in einem neuen Fenster auf"><img src="/img/icons/small/PDF_schwarz.gif" alt="" class="iconInline">HTML, 731 KB</a></li>
 </ul>
 </div>
 <!-- class="contentBlockContent"-->
@@ -8807,190 +8829,6 @@ Weitere parlamentarische Aktivit&auml;ten (wie z.B. Gesetzesinitiativen und Anfr
 
 	</div>
 
-	<div class="reiterBlock">
-   	<h2 class="reiterHeadline" id="tab-Transparenz">Transparenz</h2>
-
-   	<p>Hier finden Sie die nach &sect;&nbsp;2&nbsp;Abs.&nbsp;3a&nbsp;Unvereinbarkeits- und Transparenz-Gesetz in Verbindung mit &sect;&nbsp;9&nbsp;Bundesverfassungsgesetz über die Begrenzung von Bezügen öffentlicher Funktionäre zu veröffentlichenden leitenden ehrenamtlichen Tätigkeiten:</p>
-	<table class="tabelle" summary="Ehrenamtliche Tätigkeiten" cellspacing="0">
-		<thead>
-
-   	<tr>
-
-   					<th scope="col">Rechtsträger</th>
-
-   					<th scope="col">Eigenschaft</th>			</tr>
-
-   			</thead>
-
-   			<tbody>
-
-
-   				<tr>
-
-
-   					<td class="biogr_trans_rechtstraeger">
-
-   	SPÖ
-
-   	</td>
-
-
-   					<td class="biogr_trans_eigenschaft">
-
-   	Mitglied des Bundesparteipräsidiums
-
-   	</td>
-			</tr>
-
-
-   				<tr>
-
-
-   					<td class="biogr_trans_rechtstraeger">
-
-   	SPÖ
-
-   	</td>
-
-
-   					<td class="biogr_trans_eigenschaft">
-
-   	Mitglied des Bundesparteivorstandes
-
-   	</td>
-			</tr>
-
-
-   				<tr>
-
-
-   					<td class="biogr_trans_rechtstraeger">
-
-   	SPÖ
-
-   	</td>
-
-
-   					<td class="biogr_trans_eigenschaft">
-
-   	Kooptiertes Mitglied des Bundesfrauenvorstandes (ab 04.12.2014)
-
-   	</td>
-			</tr>
-
-
-   				<tr>
-
-
-   					<td class="biogr_trans_rechtstraeger">
-
-   	SPÖ Wien
-
-   	</td>
-
-
-   					<td class="biogr_trans_eigenschaft">
-
-   	Mitglied des Wiener Ausschusses
-
-   	</td>
-			</tr>
-
-
-   				<tr>
-
-
-   					<td class="biogr_trans_rechtstraeger">
-
-   	SPÖ Wien
-
-   	</td>
-
-
-   					<td class="biogr_trans_eigenschaft">
-
-   	Mitglied des Wiener Frauenkomitees
-
-   	</td>
-			</tr>
-
-
-   				<tr>
-
-
-   					<td class="biogr_trans_rechtstraeger">
-
-   	SPÖ Wien/Hietzing
-
-   	</td>
-
-
-   					<td class="biogr_trans_eigenschaft">
-
-   	Mitglied des Bezirksvorstandes
-
-   	</td>
-			</tr>
-
-
-   				<tr>
-
-
-   					<td class="biogr_trans_rechtstraeger">
-
-   	SPÖ Wien/Hietzing
-
-   	</td>
-
-
-   					<td class="biogr_trans_eigenschaft">
-
-   	Mitglied des Bezirksausschusses
-
-   	</td>
-			</tr>
-
-
-   				<tr>
-
-
-   					<td class="biogr_trans_rechtstraeger">
-
-   	SPÖ Wien/Hietzing
-
-   	</td>
-
-
-   					<td class="biogr_trans_eigenschaft">
-
-   	Mitglied des Klubs der Mandatare
-
-   	</td>
-			</tr>
-
-
-   				<tr>
-
-
-   					<td class="biogr_trans_rechtstraeger">
-
-   	SPÖ Wien/Hietzing 
-
-   	</td>
-
-
-   					<td class="biogr_trans_eigenschaft">
-
-   	Stellvertretende Frauenvorsitzende (bis 02.02.2015)
-
-   	</td>
-			</tr>
-		</tbody>
-	</table>
-
-
-	</div>
-
 <div class="clearFix"></div>
 </div>
 <!-- class="contentBlock" -->
@@ -9068,7 +8906,7 @@ Weitere parlamentarische Aktivit&auml;ten (wie z.B. Gesetzesinitiativen und Anfr
 		</div>		
 	
 
-<!--  durch r_biografie.p_generate_parlamentarier   -->
+<!--  durch r_biografie.p_generate_parlamentarier  -->
 <!--Art=rendered-jq-->
 	</div>
 <!-- id="main" -->
@@ -9116,9 +8954,9 @@ Weitere parlamentarische Aktivit&auml;ten (wie z.B. Gesetzesinitiativen und Anfr
 <h2 class="hidden">Der folgende Bereich wird benoetigt um die Tooltips zu generieren.</h2>
 <div id="completion_tooltip" class="noindex"></div>
 <div id="toolTipContainer">
-<script type="text/javascript" src="/js/frontendFunctions-lang-de.js?v=1.00"></script>
+<script type="text/javascript" src="/js/frontendFunctions-lang-de.js?v=39633"></script>
 <script type="text/javascript" src="/js/jshashtable-3.0.js?v=1.00"></script>
-<script type="text/javascript" src="/js/frontendFunctions_jq.js?v=1.01"></script>
+<script type="text/javascript" src="/js/frontendFunctions_jq.js?v=45676"></script>
 </div>
 
 
