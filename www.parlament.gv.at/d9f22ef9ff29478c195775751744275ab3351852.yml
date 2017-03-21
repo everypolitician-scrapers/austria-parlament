@@ -20,9 +20,11 @@ response:
     Server:
     - nginx
     Date:
-    - Thu, 05 Jan 2017 21:27:46 GMT
+    - Tue, 21 Mar 2017 15:45:00 GMT
     Content-Type:
     - text/html
+    Transfer-Encoding:
+    - chunked
     Connection:
     - keep-alive
     Accept-Ranges:
@@ -30,12 +32,10 @@ response:
     Cache-Control:
     - max-age=0
     Expires:
-    - Thu, 05 Jan 2017 21:27:45 GMT
+    - Tue, 21 Mar 2017 15:45:00 GMT
     Strict-Transport-Security:
     - max-age=31536000
-    Content-Length:
-    - '24401'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 05 Jan 2017 21:27:46 GMT
+recorded_at: Tue, 21 Mar 2017 15:45:00 GMT
